@@ -226,7 +226,7 @@
               <td>{{job.pareigos }}</td>
               <td>{{job.darboviete}}</td>
               <td>{{job.metai}}</td>
-              <td class="ml-2" style="width: 80px; text-align: center;">
+              <td class="ml-2" style="/* width: 80px; */ text-align: center;">
                 <button 
                 @click="deleteJob(job.id)"
                 class="button is-danger"
